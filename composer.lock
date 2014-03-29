@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d4de1eae4ca019bf73e8f85cab8a1177",
+    "hash": "eadd53fc74280aa3da2d0560cd96c9c4",
     "packages": [
         {
             "name": "composer/installers",
@@ -307,6 +307,20 @@
             "time": "2013-10-06 13:30:32"
         },
         {
+            "name": "roots/wordpress",
+            "version": "3.8.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/WordPress/WordPress/archive/3.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "fancyguy/webroot-installer": "1.1.0"
+            },
+            "type": "webroot"
+        },
+        {
             "name": "symfony/finder",
             "version": "v2.4.2",
             "target-dir": "Symfony/Component/Finder",
@@ -400,20 +414,6 @@
                 "environment"
             ],
             "time": "2014-01-31 16:18:39"
-        },
-        {
-            "name": "wordpress",
-            "version": "3.8.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/3.8.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "fancyguy/webroot-installer": "1.1.0"
-            },
-            "type": "webroot"
         },
         {
             "name": "wp-cli/php-cli-tools",
